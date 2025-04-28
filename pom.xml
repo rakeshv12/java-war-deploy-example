@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.datica</groupId>
 	<artifactId>java-war-deploy-example</artifactId>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<version>0.1-SNAPSHOT</version>
 	<name>Demo for deploying WAR and JAR files</name>
 
@@ -37,11 +37,7 @@
 					</execution>
 				</executions>
 			</plugin>
-			<plugin>
- 				 <groupId>org.apache.maven.plugins</groupId>
-  				 <artifactId>maven-war-plugin</artifactId>
-  				<version>3.4.0</version>
-			</plugin>
+			
 		</plugins>
 	</build>
 
